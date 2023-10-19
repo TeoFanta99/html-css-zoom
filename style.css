@@ -81,3 +81,76 @@ main {
 }
 
 /* ----------------------- stili bottombar ---------------------- */
+#bottombar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    z-index:1;
+
+}
+
+#left-buttons {
+    margin-left: 5px;
+    margin-top: 5px;
+    display: flex;
+    width: 20%;
+    align-items: center;
+
+}
+
+.bottombar-buttons {
+    text-align: center;
+    padding-right: 15px;
+    color: white;
+}
+
+.bottombar-buttons i{
+    font-size: 25px;
+    display: block;
+    cursor: pointer;
+}
+
+.bottombar-buttons span {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.angleup-container {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+
+}
+
+.angleup-container .fa-angle-up {
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+}
+
+
+#middle-buttons {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+#right-buttons {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#right-buttons button {
+    color: red;
+    padding: 0 5px;
+    background-color: rgb(130, 129, 129);
+    border: none;
+    cursor: pointer;
+}
