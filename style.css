@@ -9,10 +9,34 @@
     font-size: 14px;
 }
 
+body {
+    /* background-color: black; */
+}
+
 
 /* ------------------------ stili topbar ----------------------- */
+#topbar {
+    min-height: 40px;
+    width: 100%;
+    border: 1px solid black;
+    position: relative;
+}
 
+#topbar-buttons {
+    height: 100%;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
 
+#topbar-buttons button {
+    background-color: #615f5f;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
 
 
 
