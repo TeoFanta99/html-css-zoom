@@ -43,11 +43,41 @@ body {
 
 
 /* ------------------------- stili main ------------------------- */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
 
+#users-grid {
+    width: 84%;
+    min-height: 300px;
+    background-color: orange;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    text-align: center;
+}
 
+.user-box {
+    width: 215px;
+    height: 120px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-image: url(img/072748875-1c83405e-6566-4e48-a2cf-33405f65c928.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
 
-
-
-
+.user-name {
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    color: white;
+    background-color: gray;
+}
 
 /* ----------------------- stili bottombar ---------------------- */
