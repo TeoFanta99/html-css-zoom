@@ -18,8 +18,10 @@ body {
 #topbar {
     min-height: 40px;
     width: 100%;
-    border: 1px solid black;
-    position: relative;
+    position: fixed;
+    top: 0;
+    z-index: 500;
+    background-color: black;    
 }
 
 #topbar-buttons {
@@ -112,7 +114,6 @@ main {
 
 .bottombar-buttons {
     text-align: center;
-    padding-right: 15px;
     color: white;
 }
 
@@ -123,7 +124,7 @@ main {
 }
 
 .bottombar-buttons span {
-    font-size: 15px;
+    font-size: 10px;
     cursor: pointer;
 }
 
@@ -147,6 +148,10 @@ main {
     justify-content: center;
     padding-top: 10px;
     padding-right: 10px;
+}
+
+#middle-buttons .bottombar-buttons {
+    padding-right: 23px;
 }
 
 .fa-share-from-square {
